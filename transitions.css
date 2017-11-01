@@ -1,0 +1,25 @@
+body{ 
+    background: #333;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    position: relative;
+    margin: auto;
+    top:200px;
+    /*TRANSITION PROPERTIES*/
+    /* transition-property: all; */
+    transition-property: background, border-radius, transform;
+    transition-duration: 2s;
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease-in; */
+}
+
+.box:hover{
+    background: yellow;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+
